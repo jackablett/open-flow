@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  open-flow is a study management wep app
+  open-flow is a study management web app
 </p>
 
 # open-flow
