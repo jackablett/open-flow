@@ -12,4 +12,4 @@
 
 open-flow is an open source study managemet web app build and designed for students.
 
-open-flow is a html, css and js web app that can be deployed or ran locally, it is new and undergoing frequent updates, if there are any bugs or issues please create a new issue on the project describing the problem.
+open-flow is a vanilla html & js app using ![tailwind](https://tailwindcss.com/)
