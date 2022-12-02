@@ -16,6 +16,10 @@ open-flow is an open source study managemet web app build and designed for stude
 
 open-flow is a vanilla html & js app using [tailwind css](https://tailwindcss.com/)
 
+## Screenshot
+
+![screenshot of ui](https://github.com/jackablett/open-flow/blob/main/screenshot-1.png?raw=true)
+
 ## Getting started
 
 open-flow is so easy to use, all you need to do is download the latest update from the [release](https://github.com/jackablett/open-flow/releases) page
