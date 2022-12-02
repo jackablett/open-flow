@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/jackablett/open-flow/blob/main/help.md">help.md</a>
+  <a href="https://github.com/jackablett/open-flow#contributions">contribute</a>
 </p>
 
 <p align="center">
