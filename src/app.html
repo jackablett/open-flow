@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+
+    <title>open-flow / localhost</title>
+</head>
+<body>
+
+    <div class="flex z-[100] get-started hidden flex-col bg-white items-center justify-center h-screen w-screen absolute top-0 left-0">
+        <div class="flex flex-col gap-1 items-center">
+            <img class="w-[50]" src="https://raw.githubusercontent.com/jackablett/open-flow/139431a3bd3b1b8ff295a497123086a31f881ccb/black-logo.svg" alt="">
+            <h2 class="text-2xl font-semibold">Welcome!</h2>
+            <p class="text-md text-slate-800">Enter your name to get started</p>
+            <input class="w-[350] px-3 my-2 focus:ring-gray-300 focus:ring-2 transition-all outline-none h-[36] border rounded-md border-slate-300" placeholder="e.g. Jack Ablett" type="text">
+            <button class="w-[350] py-[8] bg-[#24292F] text-white rounded-md">Get started!</button>
+        </div>
+    </div>
+
+    <div class="flex z-[100] flex-col new-asignment transform-0 transition-all bg-white items-center justify-center h-screen w-screen absolute top-0 left-0">
+        <div class="flex flex-col gap-1 items-center">
+            <h2 class="text-2xl font-semibold">Asignment Lab</h2>
+            <p class="text-md text-slate-800">Fill in the details below to continue</p>
+            <input class="w-[350] px-3 my-2 focus:ring-gray-300 focus:ring-2 transition-all outline-none h-[36] border rounded-md border-slate-300" placeholder="Enter subject" type="text">
+            <input class="w-[350] px-3 focus:ring-gray-300 focus:ring-2 transition-all outline-none h-[36] border rounded-md border-slate-300" placeholder="Enter date due" type="date">
+            <textarea class="w-[350] my-2 p-2 px-3 focus:ring-gray-300 focus:ring-2 transition-all outline-none border rounded-md border-slate-300" placeholder="Enter other content (optional)"></textarea>
+            <button class="w-[350] py-[8] bg-[#24292F] text-white rounded-md">Submit</button>
+        </div>
+    </div>
+
+    <div class="flex z-[100] flex-col edit-asignment transform-0 transition-all bg-white items-center justify-center h-screen w-screen absolute top-0 left-0">
+        <div class="flex flex-col gap-1 items-center">
+            <h2 class="text-2xl font-semibold">Asignment Edit</h2>
+            <p class="text-md text-slate-800">Fill in the details below to continue</p>
+            <input class="w-[350] px-3 my-2 focus:ring-gray-300 focus:ring-2 transition-all outline-none h-[36] border rounded-md border-slate-300" placeholder="Enter subject" type="text">
+            <input class="w-[350] px-3 focus:ring-gray-300 focus:ring-2 transition-all outline-none h-[36] border rounded-md border-slate-300" placeholder="Enter date due" type="date">
+            <textarea class="w-[350] my-2 p-2 px-3 focus:ring-gray-300 focus:ring-2 transition-all outline-none border rounded-md border-slate-300" placeholder="Enter other content (optional)"></textarea>
+            <button class="w-[350] py-[8] bg-[#24292F] text-white rounded-md">Update</button>
+        </div>
+    </div>
+
+    <div class="h-screen w-screen">
+        <div class="mx-auto w-10/12 h-full flex flex-col">
+            <div class="flex items-center py-2 justify-between border-b">
+                <img class="w-[165]" src="https://raw.githubusercontent.com/jackablett/open-flow/139431a3bd3b1b8ff295a497123086a31f881ccb/logo.svg" alt="">
+                <div class="relative">
+                    <button class="dropdown p-[4] px-[8] bg-slate-200 rounded-md cursor-pointer name"></button>
+                    <div class="dropdown-items top-bar flex flex-col w-[200] overflow-hidden shadow-md rounded-md bg-white absolute right-0 top-10">
+                        <h2 class="text-xl name p-4"></h2>
+                        <div class="w-full bg-slate-200 h-[0.5]"></div>
+                        <a href="" target="_blank" class="p-[7] px-[15] text-left text-slate-600 hover:bg-[#00000006]">Need Help?</a>
+                        <a href="https://github.com/jackablett/open-flow" target="_blank" class="p-[7] px-[15] text-left text-slate-600 hover:bg-[#00000006]">GitHub</a>
+                        <div class="w-full bg-slate-200 h-[0.5]"></div>
+                        <button class="p-[7] cursor-pointer px-[15] text-left text-slate-600 hover:bg-[#00000006]">Sign out</button>
+                    </div>
+                </div>
+            </div>
+            <div class="h-full flex py-8 gap-8">
+                <div class="w-[225] tabs flex flex-col gap-3">
+                    <a href="?asignments" class="flex items-center gap-2 p-[6] rounded-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        </svg>  
+                        Asignments                        
+                    </a>
+                    <a href="?settings" class="flex items-center gap-2 p-[6] rounded-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>                          
+                        Settings                      
+                    </a>
+                </div>
+
+                <div class="absolute top-6 back transform-0 transition-all z-[999] right-6 flex items-center justify-center cursor-pointer bg-zinc-100 rounded-full w-[45] h-[45]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>                      
+                </div>
+
+                <div class="w-full sections h-full flex flex-col">
+                    <section class="flex hidden h-full flex-col gap-1 w-full">
+                        <div class="flex items-center justify-between">
+                            <div class="w-3/6 flex flex-col gap-1">
+                                <h2 class="text-3xl font-semibold">Asignments</h2>
+                                <p class="text-slate-800">Create and manage your asignments.</p>
+                            </div>
+                            <div class="w-3/6 items-end flex gap-2 justify-end">
+                                <button class="flex asignment-btn items-center gap-2 bg-[#24292F] p-2 px-3 text-white rounded-md">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                                    </svg>                                      
+                                    New asignment
+                                </button>
+                            </div>
+                        </div>
+                        <div class="h-full asignment-container w-full flex flex-col gap-4 border-dashed rounded-md mt-4">
+
+
+
+                        </div>
+                    </section>
+
+                    <section class="flex hidden flex-col gap-6 w-full">
+                        <div class="flex items-center">
+                            <div class="w-full flex flex-col gap-1">
+                                <h2 class="text-3xl font-semibold">Settings</h2>
+                                <p class="text-slate-800">Manage your local user and data settings.</p>
+                            </div>
+                        </div>
+                        <div class="border overflow-hidden update-name rounded-md">
+                            <div class="flex flex-col p-3 px-5">
+                                <h2 class="text-lg">Your Name</h2>
+                                <p class="text-slate-800">Please enter your full name or a display name you are comfortable with.</p>
+                                <input class="w-[350] px-3 my-2 focus:ring-gray-300 focus:ring-2 mt-4 transition-all outline-none h-[36] border rounded-md border-slate-300" placeholder="e.g. Jack Ablett" type="text">
+                            </div>
+                            <div class="p-4 px-5 border-t bg-slate-50">
+                                <button class="bg-[#24292F] p-[6] px-3 text-white rounded-md">Save</button>
+                            </div>
+                        </div>
+                        <button class="flex delete-all items-center w-fit text-white gap-2 bg-rose-500 p-[6] rounded-md px-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                            </svg>
+                            Delete all data
+                        </button>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    console.clear();
+    console.log("Sit back relax and revise, we've got the JS sorted! (all data stored in localstorage)")
+</script>
