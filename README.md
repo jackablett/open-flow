@@ -46,6 +46,6 @@ A good example should contain:
 
 - Any identified lines of code involved in the issue or other insight that may help resolve the issue. This can also include any relevant error logs.
 
-- (Optional)Potential solutions to the problem.
+- (Optional) Potential solutions to the problem.
 
 A good bug report will help developers solve the problem without wasting time trying to figure out the situation in the first place.
