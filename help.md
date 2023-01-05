@@ -1,4 +1,4 @@
-# open-flow Help ❓
+# open-flow Help?
 
 ## Start
 
